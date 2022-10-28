@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2 id="reg"> Register or login
+    <hr>
+  </h2>
+  <form action="success.html" class="form">
+    <label for="fname">First Name </label>
+    <input type="text" id="fname" placeholder="your first name" name="name" required>
+    <label for="lname">Last Name </label>
+    <input type="text" id="lname" placeholder="your last name" required>
+    <label for="fnum">Phone </label>
+    <input type="text" id="fnum" placeholder="your mobile number" required>
+    <label for="mail">Email</label>
+    <input type="text" id="mail" placeholder="youremail" required>
+    <label for="sex">Gender</label>
+    <select id="sex">
+      <option value="male">Male</option>
+      <option value="Female">Female</option>
+    </select>
+    <label for="birthday">Date of Birth</label>
+    <input type="date" required>
+    <label for="color" id="color">Favourite color</label>
+    <input type="color" id="color">
+
+    <button type="submit"> Submit </button>
+</body>
+<footer>
+  <div>
+    <p>
+      If You already have an account <a id="log" href="login.html"> Login</a>
+    </p>
+  </div>
+
+</footer>
+
+</html>

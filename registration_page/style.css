@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 10%;
+  padding: 2%;
+background-color: slategray;
+
+
+}
+#reg {
+  width: 80%;
+  margin-right: 10%;
+  marging-left: 10%;
+}
+.form input, .form label {
+  display: block;
+  line-height: 150%;
+}
+#sub, a#active {
+  text-decoration: none;
+  color: steelblue;
+  background-color: darkblue;
+}
+a:hover {
+  color: dimgray;
+}
+#but {
+  margint-top: 10%
+}
+form.login input, form.login label {
+  line-height: 150%
+}
+#log {
+  color: #4d2323;
+}
+button {
+  margin-top: 20px;
+  color: #40474f;
+}
