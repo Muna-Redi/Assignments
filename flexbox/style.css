@@ -1,0 +1,24 @@
+n {
+  display: flex;
+  min-height: 100vh;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.flex {
+  background-color: #d4b00f;
+}
+.flexsuv {
+  background-color: #0c657d;
+}
+.fluxury {
+  background-color: #117058;
+}
+div {
+  padding: 10px;
+ width: 100%;
+  box-sizing: border-box;
+}
